@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "df579ad8-2665-4217-8d4c-86e67e76184b"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -17,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angularclass",
+            "outputPath": "dist/hotelbooking",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -124,5 +127,5 @@
       }
     }
   },
-  "defaultProject": "angularclass"
+  "defaultProject": "hotelbooking"
 }

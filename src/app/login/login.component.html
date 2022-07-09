@@ -1,0 +1,77 @@
+<!-- <header>
+    <div class="signup-box">
+            <h1>Signup</h1>
+            <div class="textbox">
+                <img src="\assets\Email.png" alt="">
+                <input type="text" placeholder="Email" name="" value="">
+                
+            </div>
+    
+            <div class="textbox">
+                <img src="\assets\Password.png" alt="">
+                <input type="text" placeholder="password" name="" value="">
+                
+            </div><br>
+            
+            <span> <input type="checkbox">   Remember Me</span><br>
+
+            <a href="">Forget Password</a>
+    
+            <input class="btn" type="button" name="" value="Login">
+        
+        </div>
+    </header>
+     -->
+
+     <div class="container">
+
+        <h1 class="text-center">Login</h1>
+        <div class="row bg-light shadow">
+            <div class="col-sm-5 m-auto">
+    
+              <img src="/assets/images/29c55ddb-7460-45eb-a882-392d0bfa7626.png" id="icon" alt="">
+        
+        
+        
+        
+        
+        
+                
+                
+            </div>
+    
+            <div class="col-sm-5 m-auto">
+    
+                <div class="jumbotron">
+                    <form action="POST" [formGroup]="angForm" (ngSubmit)="postdata(angForm)" autocomplete="off">
+
+                
+                <div class="textbox">
+                    <img src="\assets\Message_50px.png" alt="">
+                    <input type="text" placeholder="Email" formControlName="email" autocomplete="off" name="email" value="">
+                    
+                </div>    <br>
+              
+                <div class="textbox">
+                    <img src="\assets\Password_50px.png" alt="">
+                    <input type="password" placeholder="Password" formControlName="password" autocomplete="off" name="password" value="">
+                    
+                </div> <br>
+                <input type="checkbox" name="" id=""> Remember me <br><br>
+
+                <a href="">Forget Password</a><br><br>
+        
+                <p>Don't have account<a href="" routerLink="/signup" routerLinkActive="activebutton"> click here</a></p>
+        
+    
+                
+                <br> <br>   <button class="btn" [disabled]="!angForm.valid" type="submit"> SignUp</button>
+    
+               <!-- <br> <br> <input class="btn" type="submit" name="" value="Login"> -->
+            </form>
+        </div>
+            </div>
+    
+        </div>
+    
+    </div>

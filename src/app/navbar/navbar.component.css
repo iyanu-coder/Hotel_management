@@ -1,0 +1,27 @@
+a{
+    font-weight: bold;
+    color: rgb(44,6,5);
+}
+
+#logo{
+    height: 50px;
+    margin-left: 20px;
+}
+
+
+#btn{
+    float: right;
+    background-color: none;
+    border: 2px solid #4caf50;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: all 3s 0s;
+    color: black;
+}
+#btn:hover{
+    background-color:  #6dc570;
+    transition: all 0.5s 0s;
+}
+

@@ -1,0 +1,103 @@
+#header{
+    background-image: url(/assets/images/eddi-aguirre-ZAVHbpOn4Jk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+
+}
+
+#header h3{
+    color: rgb(111, 131, 174);  
+    text-align: center; 
+    padding-top: 200px;
+    font-size: 45px;
+}
+
+#header h4{
+    color: rgb(18, 27, 47); 
+    text-align: center;
+    /* padding-top: 180px; */
+}
+
+#btn{
+    width: 25%;
+    background-color: none;
+    border: 2px solid #a1baa2;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 30px 0 0 37%;
+    transition: all 3s 0s;
+    color: black;
+}
+#btn:hover{
+    background-color:  #a8b5a9;
+    transition: all 0.5s 0s;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #8e9d87;
+}
+
+.textbox img{
+   width: 26px;
+   float: left;
+   text-align: center; 
+}
+
+.textbox input{
+    border:none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin:0 10px;
+}
+
+/* .carousel {
+    height: 500px;
+  }
+  
+  .carousel-item{
+      height: 1000px;
+  } */
+
+  .container{
+      /* background-color: rgb(208,223,230); */
+      border-radius: 0 0 10px 10px;
+      box-shadow:  1px antiquewhite;
+  }
+  
+
+  #checkin{
+     margin-left: 100px;
+  }
+
+
+  .butt{
+      margin-top: 33px;
+  }
+
+  h2{
+        text-align: center;
+  }
+
+  #footer{
+    background-color: rgb(34,34,34);
+    width: 100%!important;
+    height: 50%;
+    color: white;
+}
+
+#subscribe{
+    width: 40%;
+    height: 90%;
+}

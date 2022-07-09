@@ -1,0 +1,66 @@
+
+ h1{
+    color: rgb(0,174,224);
+  }
+ 
+  #icon{
+     height: 400px; 
+     width: 400px;
+  }
+ 
+  .textbox{
+     width: 100%;
+     overflow: hidden;
+     font-size: 20px;
+     padding: 8px 0;
+     margin: 8px 0;
+     border-bottom: 1px solid #8e9d87;
+ }
+ 
+ .textbox img{
+    width: 26px;
+    float: left;
+    text-align: center; 
+ }
+ 
+ .textbox input{
+     border:none;
+     outline: none;
+     background: none;
+     color: black;
+     font-size: 18px;
+     width: 80%;
+     float: left;
+     margin:0 10px;
+ }
+ 
+ 
+ .btn{
+   width: 50%;
+   float: right;
+   background-color: none;
+   border: 2px solid #11899e;
+   font-size: 18px;
+   padding: 5px;
+   cursor: pointer;
+   margin: 5px 0;
+   transition: all 3s 0s;
+   color: black;
+ }
+ .btn:hover{
+   background-color:  #3da39b;
+   transition: all 0.5s 0s;
+ }
+ 
+ .container{
+     margin-top: 60px;
+ }
+ 
+ .row{
+   padding-top: 50px;
+   height: 800px;
+ }
+ 
+ p{
+   float: right;
+ }

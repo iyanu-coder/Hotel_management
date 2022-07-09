@@ -1,0 +1,30 @@
+h1{
+    color: rgb(0,174,224);
+  }
+ 
+
+
+  #header{
+    background-image: url(/assets/images/qui-nguyen-giL2fHNr3Lc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+
+}
+
+#header h3{
+    color: rgb(98, 68, 40);  
+    text-align: center; 
+    padding-top: 200px;
+    font-size: 45px;
+}
+
+#header h4{
+    color: rgb(27, 26, 41); 
+    text-align: center;
+    /* padding-top: 180px; */
+}
+
+
+  

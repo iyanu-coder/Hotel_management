@@ -1,0 +1,79 @@
+<app-adminnav></app-adminnav>
+<div id="todmiddle">
+<!-- <div style="margin-left: 345px; margin-top: 100px;" > -->
+
+    <div class="container">
+
+        <h2 class="text-center">Upload Events</h2>
+        <div class="row shadow">
+    
+            <div class="col-sm-10 m-auto">
+    
+                <div class="jumbotron bg-light">
+                    <form action="POST" [formGroup]="angForm" (ngSubmit)="eventdata(angForm)" autocomplete="off">
+                
+                        <div class="textbox">
+                           
+                            <input type="text" placeholder="contents" formControlName="contents" >
+                        </div>    <br>
+
+                        <div class="textbox">
+
+                            <input type="text" placeholder="Venue" formControlName="venue" >
+                        </div>    <br>
+                
+                        <div class="textbox">
+            
+                            <input type="text" placeholder="$1000/Person" formControlName="entryfee" >
+                        </div>    <br>
+
+                        <div class="textbox">
+                    
+                            <input type="file" placeholder="Upload" formControlName="images" >
+                        </div> <br>
+                      
+                
+                <br> <br>   <button class="btn" id="btn" type="submit">Upload</button>
+    
+              
+            </form>
+        </div>
+    
+        </div>
+    
+    </div>
+
+</div>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Contets</th>
+        <th scope="col">Venue</th>
+        <th scope="col">Entryfee</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+

@@ -1,0 +1,115 @@
+<!-- <header>
+<div class="signup-box">
+        <h1>Signup</h1>
+        <div class="textbox">
+            <img src="\assets\User.png" alt="">
+            <input type="text" placeholder="Full Name" name="" value="">
+            
+        </div>
+
+        <div class="textbox">
+            <img src="\assets\Email.png" alt="">
+            <input type="text" placeholder="Email" name="" value="">
+            
+        </div>
+
+        <div class="textbox">
+            <img src="\assets\Name.png" alt="">
+            <input type="text" placeholder="Username" name="" value="">
+            
+        </div>
+
+        <div class="textbox">
+            <img src="\assets\Password.png" alt="">
+            <input type="text" placeholder="Password" name="" value="">
+            
+        </div>    
+
+        <input class="btn" type="button" name="" value="Signup">
+    
+    </div>
+</header> -->
+
+
+
+<div class="container">
+
+    <h1 class="text-center">Registration</h1>
+    <div class="row bg-light shadow">
+        <div class="col-sm-5 m-auto">
+
+          
+            <img src="/assets/images/8645e49e-71d2-4354-8b39-b426deb83fd1.png" id="icon" alt="">
+    
+    
+    
+    
+    
+            
+            
+        </div>
+
+        <div class="col-sm-5 m-auto">
+            <div class="jumbotron">
+
+                <form action="" [formGroup]="angForm" (ngSubmit)="postdata(angForm)" autocomplete="off" >
+                    
+                                <div class="form-group textbox">
+                                    <img src="\assets\Contacts_50px.png" alt="">
+                                    <input name="f_name" formControlName="f_name" type="text" placeholder="First Name" name="" value="" autocomplete="off">
+                                    
+                                </div>
+                    
+                                <div class="form-group textbox">
+                                    <img src="\assets\Collaborator Male_50px.png" alt="">
+                                    <input name="l_name" formControlName="l_name" type="text" placeholder="Last Name" name="" value="" autocomplete="off">
+                                    
+                                </div>
+                    
+                    
+                                <div class="form-group textbox">
+                                    <img src="\assets\Message_50px.png" alt="">
+                                    <input name="email" formControlName="email" type="text" placeholder="Email" name="" value="" autocomplete="off">
+                                    
+                                </div>
+                    
+                                <div class="form-group textbox">
+                                    <img src="\assets\Country_50px.png" alt="">
+                                    <input name="country" formControlName="country" type="country" placeholder="Country" name="" value="" autocomplete="off">
+                                    
+                                </div>
+                    
+                                <div class="form-group textbox">
+                                    <img src="\assets\iPhone_50px.png" alt="">
+                                    <input name="phone_number" formControlName="phone_number" type="number" placeholder="Phone Number" name="" value="" autocomplete="off">
+                                    
+                                </div>
+                                
+                              
+                                <div class="form-group textbox">
+                                    <img src="\assets\Male User_50px.png" alt="">
+                                    <input name="username" formControlName="username" type="text" placeholder="Username" name="" value="" autocomplete="off">
+                                    
+                                </div>
+                    
+                                <div class="form-group textbox">
+                                    <img src="\assets\Password_50px.png" alt="">
+                                    <input name="password" formControlName="password" type="password" placeholder="Password" name="" value="" autocomplete="off">
+                                    
+                                </div> <br>
+                        
+                    
+                                <p id="already">Already have account<a href="" routerLink="/login" routerLinkActive="activebutton"> click here</a></p>
+                    
+                                <br> <br>   <button class="btn" [disabled]="!angForm.valid" type="submit"> SignUp</button>
+                             
+
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

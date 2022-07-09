@@ -1,0 +1,234 @@
+<input type="checkbox" id="nav-toggle"/>
+<div class="sidebar">
+    <div class="sidebar-brand">
+        <h3><span> <img id="logo" src="/assets/images/icons8-falcon-80.png" alt=""></span></h3>
+    </div>
+
+    <div class="sidebar-menu">
+        <ul>
+            <li>
+                <a href="" routerLink="/adminlandingpage" class="active">
+                    <span class="las la-igloo"></span>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" routerLink="/admincustomerlist">
+                    <span class="las la-users"></span>
+                    <span>Customers</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" routerLink="/adminroomlist">
+                    <span class="las la-shipping-bag"></span>
+                    <span>Rooms</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" routerLink="/adminevent">
+                    <span class="las la-receipt"></span>
+                    <span>Events</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" routerLink="/adminaccount" >
+                    <span class="las la-user-circle"></span>
+                    <span>Accounts</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+</div>
+
+<div class="main-content">
+    <header>
+        <h2>
+            <label for="nav-">
+                <span class="las la-bars"></span>
+            </label>
+            Dashboard
+        </h2>
+        <div class="search-wrapper">
+            <span class="las la-search"></span>
+            <input type="search" placeholder="Search here" />
+        </div>
+        <div class="user-wrapper">
+            <img src="/assets/images/Contacts_50px.png" alt="">
+            <div>
+                <h4>John Doe</h4>
+                <small>Super Admin</small>
+            </div>
+        </div>
+    </header>
+        <!-- <main>
+
+           <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h2>79</h2>
+                        <span>Customers</span>
+                    </div>
+                    <div>
+                        <span class="las la-users"></span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h2>190</h2>
+                        <span>Rooms</span>
+                    </div>
+                    <div>
+                        <span class="las la-clipboard"></span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h2>09</h2>
+                        <span>Events</span>
+                    </div>
+                    <div>
+                        <span class="las la-shopping-bag"></span>
+                    </div>
+                </div>
+
+                 <div class="card-single">
+                    <div>
+                        <h2>$600k</h2>
+                        <span>Income</span>
+                    </div>
+                    <div>
+                        <span class="lab la-google-wallet"></span>
+                    </div>
+                </div>
+           </div>
+           <div class="recent-flex">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Recent Events</h2>
+                            <button>See all <span class="las la-arroe-right"></span></button>
+                        </div>
+
+                        <div class="card-body">
+                            <table width="100%">
+                                <thead>
+                                    <tr>
+                                        <td>Event Title</td>
+                                        <td>Event Date</td>
+                                        <td>Event Date</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Wedding</td>
+                                        <td>Event Planner</td>
+                                        <td>
+                                            <span class="status purple"></span>
+                                            review
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Birthday</td>
+                                        <td>Event Planner</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            review
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Burial</td>
+                                        <td>Event Planner</td>
+                                        <td>
+                                            <span class="status orange"></span>
+                                            review
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="card-body">
+                                    <div class="table-responsive">
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>New customer</h3>
+                            <button>See all <span class="las la-arroe-right"></span></button>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="info">
+
+                                    <img src="/assets/images/" width="40px" height="40px" alt="">
+    
+                                    <div>
+                                        <h4>Akin I. Oluwaseyi </h4>
+                                        <small>HOTEL CEO</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+
+                        
+                            <div class="customer">
+                                <div>
+
+                                    <img src="/assets/images/" width="40px" height="40px" alt="">
+    
+                                    <div>
+                                        <h4>Akin I. Oluwaseyi </h4>
+                                        <small>HOTEL CEO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+
+                                    <img src="/assets/images/" width="40px" height="40px" alt="">
+    
+                                    <div>
+                                        <h4>Akin I. Oluwaseyi </h4>
+                                        <small>HOTEL CEO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </main> -->
+</div>
+

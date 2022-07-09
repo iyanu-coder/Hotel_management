@@ -1,0 +1,87 @@
+<app-adminnav></app-adminnav>
+<div id="todmiddle">
+<!-- <div style="margin-left: 345px; margin-top: 100px;" > -->
+
+    <div class="container">
+
+        <h2 class="text-center">Upload Rooms Content</h2>
+        <div class="row shadow">
+    
+            <div class="col-sm-10 m-auto">
+    
+                <div class="jumbotron bg-light">
+                    <form action="POST" [formGroup]="angForm" (ngSubmit)="roomsdata(angForm)" autocomplete="off">
+                
+                        <div class="textbox">
+                           
+                            <input type="text" placeholder="contents" formControlName="contentsofroom" >
+                        </div>    <br>
+
+                        <div class="textbox">
+
+                            <input type="text" placeholder="$1000/Night" formControlName="priceofroom" >
+                        </div>    <br>
+                
+                        <div class="textbox">
+            
+                            <input type="text" placeholder="Family Duplex" formControlName="typeofroom" >
+                        </div>    <br>
+                    
+                        <div class="textbox">
+                    
+                            <input type="text" placeholder="50sqm" formControlName="sizeofroom" >
+                        </div> <br>
+
+                        <div class="textbox">
+                    
+                            <input type="file" placeholder="Upload" formControlName="images" >
+                        </div> <br>
+                      
+                
+                <br> <br>   <button class="btn" id="btn" type="submit">Upload</button>
+    
+              
+            </form>
+        </div>
+    
+        </div>
+    
+    </div>
+
+</div>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Contets of Rooms</th>
+        <th scope="col">Prices</th>
+        <th scope="col">Type</th>
+        <th scope="col">Size</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>{{angForm.value.contentsofroom}}</td>
+        <td>wfefe</td>
+        <td>@mdo</td>
+        <td>@mo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        <td>Thornton</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+        <td>Larry</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

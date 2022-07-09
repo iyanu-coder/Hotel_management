@@ -1,0 +1,111 @@
+#header{
+    background-image: url(/assets/images/francesca-saraco-_dS27XGgRyQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+
+}
+
+#header h3{
+    color: rgb(172, 94, 10);  
+    text-align: center; 
+    padding-top: 190px;
+    font-size: 45px;
+}
+
+#header h4{
+    color: rgb(228, 193, 193); 
+    text-align: center;
+    /* padding-top: 180px; */
+}
+
+.title{
+    height: 160px;
+    margin-top: -160px;
+    width: 50%;
+    background-color: rgb(255,255,255);
+    /* margin-right: 100px; */
+}
+
+.title h4{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.title h6{
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.title a{
+    color: rgb(222,190,152);
+}
+
+
+.titleright{
+    height: 160px;
+    margin-top: -160px;
+    margin-left: 50%;
+    background-color: rgb(255,255,255);
+}
+
+.titleright h4{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titleright p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.titleright h6{
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.titleright a{
+    color: rgb(222,190,152);
+}
+
+
+
+.bigger{
+    height: 610px;
+}
+
+.seconbigger{
+    height: 300px;
+}
+
+.thirdbigger{
+    height: 300px;
+}
+
+
+
+#footer{
+    background-color: rgb(34,34,34);
+    width: 100%!important;
+    height: 50%;
+    color: white;
+}
+
+#subscribe{
+    width: 40%;
+    height: 90%;
+}
+
+#subscribebutton{
+    
+}
